@@ -8,20 +8,21 @@
   sudo mkdir -p /etc/docker
   sudo vi /etc/docker/daemon.json
   {
-      "registry-mirrors": [
-      	"https://docker.rainbond.cc",
-      	"https://docker.udayun.com", 
-      	"https://docker.1panel.live",  
-      	"https://docker.m.daocloud.io", 
-      	https://docker.1panelproxy.com,
-      	"https://fast360.xyz",
-      	"https://docker.zhai.cm",
-      	"https://docker.gbfeng.com",
-      	"https://hub.haod.eu.org",
-      	"https://hub.chxza.eu.org",
-      	// 流量限制
-      	"https://1ms.run",
-      	"https://hub.rat.dev"
+      "registry-mirrors":
+      [
+          "https://docker.rainbond.cc",
+          "https://docker.udayun.com",
+          "https://docker.1panel.live",
+          "https://docker.m.daocloud.io",
+          "https://docker.1panelproxy.com",
+          "https://fast360.xyz",
+          "https://docker.zhai.cm",
+          "https://docker.gbfeng.com",
+          "https://hub.haod.eu.org",
+          "https://hub.chxza.eu.org",
+          // 流量限制
+          "https://1ms.run",
+          "https://hub.rat.dev"
       ]
   }
   sudo systemctl daemon-reload
